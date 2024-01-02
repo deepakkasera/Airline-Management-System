@@ -5,5 +5,6 @@ import jakarta.persistence.Entity;
 @Entity(name = "seats")
 public class Seat extends BaseModel{
     private String name;
-
+    private SeatType seatType;
+    private AirPlane airPlane;
 }

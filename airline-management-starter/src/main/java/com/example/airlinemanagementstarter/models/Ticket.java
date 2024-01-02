@@ -9,7 +9,6 @@ import java.util.Date;
 
 @Getter
 @Setter
-@Entity(name = "tickets")
 public class Ticket extends BaseModel{
     @ManyToOne
     private Flight flight;

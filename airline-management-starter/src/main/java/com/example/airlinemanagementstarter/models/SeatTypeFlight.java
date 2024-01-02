@@ -9,7 +9,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity(name = "seat_type_flights")
 public class SeatTypeFlight extends BaseModel {
     @ManyToOne
     private Flight flight;

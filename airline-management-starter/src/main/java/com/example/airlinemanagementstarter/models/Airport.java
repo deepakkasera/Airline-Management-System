@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 
 import java.util.List;
 
-@Entity(name = "airports")
 public class Airport extends BaseModel {
     private String name;
 
